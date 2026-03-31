@@ -48,18 +48,17 @@ form.addEventListener("submit", function (event) {
 });
 
 function displayStudents() {
-  table.innerHTML = ""; /*clears existing table data*/
+  table.innerHTML = "";
 
   students.forEach((student, index) => {
     table.innerHTML += `
       <tr>
-        <td>${index + 1}</td>
-        <td>${students.name}</td>
-        <td>${students.rollNo}</td>
-        <td>${students.className}</td>
-        <td>${students.email}</td>
-         <td>
-             <button onclick="editStudent(${index})">Edit</button>
+        <td>${student.name}</td>
+        <td>${student.rollNo}</td>
+        <td>${student.className}</td>
+        <td>${student.email}</td>
+        <td>
+          <button onclick="editStudent(${index})">Edit</button>
           <button onclick="deleteStudent(${index})">Delete</button>
         </td>
       </tr>
