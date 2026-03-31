@@ -1,29 +1,32 @@
 # Student Management System
 
-A console-based Student Management System built in C as part of my programming fundamentals practice.
+A browser-based Student Management System built with vanilla JavaScript as part of my web development practice.
 
 ## Features
-- Add new student records (name, roll number, marks)
-- View all stored student records
-- Search for a student by roll number
-- Update existing student details
+- Add new student records (name, roll number, class, email)
+- View all students in a structured table
+- Edit existing student details
 - Delete student records
-- Data stored using file handling (persistent storage)
+- Duplicate roll number validation
 
 ## Tech Stack
-- Language: C
-- Concepts used: Structs, File Handling, Loops, Functions, Switch-case menu
+- HTML
+- CSS
+- JavaScript (Vanilla)
 
 ## How to Run
 1. Clone the repository
-2. Compile using GCC: `gcc student_management.c -o sms`
-3. Run: `./sms` (Linux/Mac) or `sms.exe` (Windows)
+2. Open `index.html` in your browser
+3. No installation or server needed
 
 ## What I Learned
-- Working with structs and arrays in C
-- File I/O operations for persistent data storage
-- Building menu-driven console applications
-- Modular programming with functions
+- DOM manipulation and dynamic table rendering
+- Form validation and duplicate detection
+- Edit/delete operations using array indexing
+- Structuring a mini CRUD app in vanilla JS
+
+## Planned
+- C version of the same system (CLI-based)
 
 ## Author
 Nehal Khan — [LinkedIn](https://www.linkedin.com/in/nehal-khan0038)
