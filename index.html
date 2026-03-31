@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System0 </title>
+</head>
+<body>
+    <h1>Student Management System  </h1>
+    <form id="studentForm">
+        <input type="text" id="name" placeholder="Student name" required/>
+        <input type="text" id="rollNo" placeholder="Roll Number" required/>
+        <input type="text" id="class" placeholder="Class" required/>
+        <input type="text" id="email" placeholder="Email" required/>
+        <button type="submit">Add Student</button>
+    </form>
+
+    <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Roll Number</th>
+            <th>Class</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="studentTable">
+        <!-- Student rows will be added here dynamically -->
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
+
